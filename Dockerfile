@@ -14,7 +14,7 @@ ENV NETWORK_PKG="nmap tcpdump iperf3 tcptraceroute iputils bind-tools curl wget 
 ENV CODE_PKG="vim git jq make"
 ENV DEBUG_PKG="htop stress-ng strace iftop iotop sysstat"
 
-ENV KUBECTL_V="v1.26.14"
+ENV KUBECTL_V="v1.28.12"
 
 RUN apk update && \
     apk add --no-cache \
